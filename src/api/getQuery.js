@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const getQuery = queryObj => {
-    const API = "https://scidbtest.scibite.com:9243/";
+    const API = "https://elastictest.com:9243/";
     const DEFAULT_QUERY = "_search?pretty";
 
     return axios
