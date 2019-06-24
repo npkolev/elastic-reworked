@@ -7,8 +7,8 @@ export const getQuery = queryObj => {
     return axios
         .get(API + DEFAULT_QUERY, {
             auth: {
-                username: "candidate",
-                password: "ge37X7sYt8"
+                username: "user",
+                password: "pass"
             },
             headers: {},
             params: {
